@@ -1,0 +1,127 @@
+body{
+  margin: 0 auto;
+  color: black;
+}
+
+/* HEADER STYLES */
+.header {
+  position: absolute;
+  top: 0;
+  left: 2.5%;
+  right: 2%;
+  padding: 20px;
+  text-align: left;
+  font-size: 12px;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 190px;
+}
+
+.row button{
+  background-color: blueviolet;
+}
+
+.row input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 200px;
+}
+
+.add-new{
+  margin-left: 20px;
+  padding: 8px 20px;
+}
+
+.button-text{
+  padding-left: 10px;
+}
+
+
+/* TABLE COMPONENT STYLE */
+table{
+  position: absolute;
+  top: 25%;
+  left: 3.5%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 88%;
+}
+
+td, 
+th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Action styles */
+.actions{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.actions button{
+  background-color: blueviolet;
+}
+
+/* NewParticipant styles */
+.add-new-card{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  right: 25%;
+  background-color: darkblue;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.add-new-card h1{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+/* Style for form labels and inputs */
+.add-new-card form label {
+  display: inline-block;
+  width: 15%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-size: la;
+}
+
+.add-new-card form input[type="text"],
+.add-new-card form input[type="date"],
+.add-new-card form select {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Style for form submit button */
+.add-new-card form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-new-card form button:hover {
+  background-color: #45a049;
+}
