@@ -19,7 +19,8 @@ function App() {
     // Pop up the form page & also mention the form type..
     setIsFormPage(true);  
     setFormType({isCreationType: true, isUpdationType: false});
-    setPrToUpdate({}); // Reset the participant to update
+    // Reset the participant to update
+    setPrToUpdate({}); 
   }
 
   function handleBackBtnClick(){
