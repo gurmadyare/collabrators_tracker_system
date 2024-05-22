@@ -11,6 +11,7 @@ Features
 
 	•	Add new collaborators with details such as name, birthdate, phone number, gender, and skillset.
 	•	Update existing collaborators’ information.
+ 	• 	Search or remove existing collabrators.
 	•	Client-side validation to ensure data integrity.
 	•	Dynamic list of collaborators that updates seamlessly.
 	•	Intuitive navigation options for easy movement between different views.
