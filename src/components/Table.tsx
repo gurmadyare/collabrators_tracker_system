@@ -1,7 +1,7 @@
 import React from 'react';
 import { Participants } from '../model/Participant.type';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowsToEye, faEdit, faEye, faEyeDropper, faTrash } from '@fortawesome/free-solid-svg-icons';
+import {faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 type Props = {
   list: Participants[];
@@ -13,7 +13,8 @@ type Props = {
 
 const Table: React.FC<Props> = ({ list, onDelete, onUpdate }) => {
   return (
-    <table className="participant-table">
+    <>
+     <table className="participant-table">
       <thead>
         <tr>
           <th>ID</th>
@@ -46,8 +47,19 @@ const Table: React.FC<Props> = ({ list, onDelete, onUpdate }) => {
             </td>
           </tr>
         ))}
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+
+      {/* If the searching participant is not found  */}
+      {list.length == 0 && 
+        <div className='not-found-container'>
+          <img src="public/No data-amico.png" alt="" />
+          <p>No participator was found <br /> based on your search!</p>
+        </div>
+        
+      }
+    </>
+  
   );
 };
 
