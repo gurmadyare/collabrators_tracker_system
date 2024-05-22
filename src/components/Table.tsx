@@ -53,7 +53,7 @@ const Table: React.FC<Props> = ({ list, onDelete, onUpdate }) => {
       {/* If the searching participant is not found  */}
       {list.length == 0 && 
         <div className='not-found-container'>
-          <img src="public/No data-amico.png" alt="" />
+          <img src="public/IMG_0121.png" alt="" />
           <p>No participator was found <br /> based on your search!</p>
         </div>
         
