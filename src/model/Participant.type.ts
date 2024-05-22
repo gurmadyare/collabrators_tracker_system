@@ -9,9 +9,9 @@ export interface Participants{
 
 export const participatorsList : Participants[] = [{
   id: 1,
-  name: "Gallad Diriye Ahmed",
-  phone: 615503856,
-  age: 29,
+  name: "Gurmad Harir Abdulle",
+  phone: 612729340,
+  age: 21,
   gender: "Male",
-  skill: "IT Specialist"
+  skill: "Full Stack Mobile App Developer"
 }]
