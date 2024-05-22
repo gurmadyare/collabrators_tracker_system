@@ -1,6 +1,9 @@
 body{
   margin: 0 auto;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* HEADER STYLES */
@@ -124,4 +127,18 @@ th{
 
 .add-new-card form button:hover {
   background-color: #45a049;
+}
+
+
+.not-found-container{
+  margin-top: 80px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.not-found-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
