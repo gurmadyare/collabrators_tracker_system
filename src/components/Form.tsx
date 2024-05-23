@@ -141,13 +141,13 @@ const Form = ({ handleBack, formType, participantToUpdate}) => {
 
       <select name="skill" id="skill" value={participantData.skill} onChange={handleChange} required>
         <option value="">Select Skill</option>
+        <option value="System Analyst">System Analyst</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
         <option value="Frontend Mobile Developer">Frontend Mobile Developer</option>
         <option value="Frontend Web Developer">Frontend Web Developer</option>
         <option value="Backend Developer">Backend Developer</option>
         <option value="Full Stack Mobile Developer">Full Stack Mobile Developer</option>
         <option value="Full Stack Web Developer">Full Stack Web Developer</option>
-        <option value="UI/UX Designer">UI/UX Designer</option>
-        <option value="IT Specialist">IT Specialist</option>
       </select> <br /> <br />
 
       <button>{formType.isCreationType ? 'Submit' : 'Update'}</button>
